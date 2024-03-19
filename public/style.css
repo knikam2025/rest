@@ -1,0 +1,88 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+
+/* Posts List Page Styles */
+.posts-title {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.post-container {
+    background: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.post-username,
+.post-content {
+    margin-left: 20px;
+}
+
+.post-actions {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.post-detail-link,
+.post-edit-link,
+.delete-button {
+    margin-right: 10px;
+}
+
+.create-new-post-link {
+    display: block;
+    width: max-content;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* New Post Form Styles */
+.new-post-form {
+    width: 50%;
+    margin: 20px auto;
+}
+
+.username-label,
+.content-label {
+    display: block;
+}
+
+.username-input,
+.content-textarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+}
+
+.submit-post-button {
+    display: block;
+    width: max-content;
+    padding: 10px 20px;
+    background-color: #5cb85c;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Show Post Page Styles */
+.post-title {
+    text-align: center;
+}
+
+.post-id,
+.post-username,
+.post-content {
+    background-color: #fff;
+    padding-left: 20px; 
+}
